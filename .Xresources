@@ -1,0 +1,35 @@
+XTerm*reverseVideo:on
+XTerm*faceName:Source Code Pro:size=10:antialias=true
+XTerm*selectToClipboard: true
+
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt*secondaryScreen: 1
+URxvt*secondaryScroll: 1
+URxvt*font: xft:Source Code Pro:size=10
+!URxvt.letterSpace: -1
+URxvt*reverseVideo:true
+URxvt*transparent:true
+URxvt*shading:30
+URxvt*scrollBar: false
+!URxvt*foreground: white
+!URxvt*depth: 32
+!URxvt*background: rgba:0000/0000/0200/c800
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #000000, #222222, #222222
+rofi.color-normal: #222222, #e1e7ec, #333333, #285577, #e1e7ec
+rofi.color-active: #222222, #23c144, #333333, #285577, #23c144
+rofi.color-urgent: #222222, #ff3b00, #333333, #285577, #ff3b00
+rofi.terminal: urxvt
+
+! Ssh client to use
+rofi.ssh-client:                     ssh
+! Ssh command to execute
+rofi.ssh-command:                    {terminal} -tn xterm-color -e {ssh-client} {host}
+! Run command to execute
+rofi.run-command:                    {cmd}
