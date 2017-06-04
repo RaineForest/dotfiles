@@ -1,0 +1,7 @@
+{
+    "editor.minimap.enabled": true,
+    "editor.tabSize": 8,
+    "editor.insertSpaces": false,
+    "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "workbench.iconTheme": "vscode-great-icons"
+}
